@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 9139229244,
+              "duration": 9888935494,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 189743090,
+              "duration": 223586427,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 127934660,
+              "duration": 182657635,
               "status": "passed"
             },
             "line": 8,
@@ -46,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 1845155551,
+              "duration": 1937221462,
               "status": "passed"
             },
             "line": 9,
@@ -64,7 +64,7 @@
           },
           {
             "result": {
-              "duration": 81245385,
+              "duration": 76744048,
               "status": "passed"
             },
             "line": 10,
@@ -82,7 +82,7 @@
           },
           {
             "result": {
-              "duration": 466342110,
+              "duration": 583567328,
               "status": "passed"
             },
             "line": 11,
@@ -94,7 +94,7 @@
           },
           {
             "result": {
-              "duration": 1947983248,
+              "duration": 1727954668,
               "status": "passed"
             },
             "line": 12,
@@ -106,7 +106,7 @@
           },
           {
             "result": {
-              "duration": 37137064,
+              "duration": 27807444,
               "status": "passed"
             },
             "line": 13,
@@ -137,330 +137,6 @@
             "name": "@smoke"
           }
         ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 8603251150,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.openBrowser()"
-            }
-          }
-        ],
-        "line": 16,
-        "name": "Adding multiple units of the same article to the cart",
-        "description": "",
-        "id": "zooplus-assessment-test-cases;adding-multiple-units-of-the-same-article-to-the-cart",
-        "after": [
-          {
-            "result": {
-              "duration": 193065313,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.embedScreenshot(Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 29823381,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "I am in homepage",
-            "match": {
-              "location": "HomepageSteps.i_am_in_homepage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2101823391,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "I select article number \"1\" from the slider",
-            "match": {
-              "arguments": [
-                {
-                  "val": "1",
-                  "offset": 25
-                }
-              ],
-              "location": "HomepageSteps.i_select_article_number_from_the_slider(String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 111582247,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "I select \"2\" units of the lowest size",
-            "match": {
-              "arguments": [
-                {
-                  "val": "2",
-                  "offset": 10
-                }
-              ],
-              "location": "ProductSteps.i_select_units_of_the_lowest_size(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 654771382,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "I click add to cart",
-            "match": {
-              "location": "ProductSteps.i_click_add_to_cart()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1774622839,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "I navigate to the cart",
-            "match": {
-              "location": "HomepageSteps.i_navigate_to_the_cart()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 22378494,
-              "status": "passed"
-            },
-            "line": 22,
-            "name": "I should see the cart with \"1\" rows of articles",
-            "match": {
-              "arguments": [
-                {
-                  "val": "1",
-                  "offset": 28
-                }
-              ],
-              "location": "CartSteps.i_should_see_the_cart_with_rows_of_articles(String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 15,
-            "name": "@cart"
-          },
-          {
-            "line": 15,
-            "name": "@regression"
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 7954486730,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.openBrowser()"
-            }
-          }
-        ],
-        "line": 25,
-        "name": "Adding multiple articles to the cart",
-        "description": "",
-        "id": "zooplus-assessment-test-cases;adding-multiple-articles-to-the-cart",
-        "after": [
-          {
-            "result": {
-              "duration": 177892671,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.embedScreenshot(Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 6455198,
-              "status": "passed"
-            },
-            "line": 26,
-            "name": "I am in homepage",
-            "match": {
-              "location": "HomepageSteps.i_am_in_homepage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1995939777,
-              "status": "passed"
-            },
-            "line": 27,
-            "name": "I select article number \"1\" from the slider",
-            "match": {
-              "arguments": [
-                {
-                  "val": "1",
-                  "offset": 25
-                }
-              ],
-              "location": "HomepageSteps.i_select_article_number_from_the_slider(String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 77566617,
-              "status": "passed"
-            },
-            "line": 28,
-            "name": "I select \"1\" units of the lowest size",
-            "match": {
-              "arguments": [
-                {
-                  "val": "1",
-                  "offset": 10
-                }
-              ],
-              "location": "ProductSteps.i_select_units_of_the_lowest_size(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 490301643,
-              "status": "passed"
-            },
-            "line": 29,
-            "name": "I click add to cart",
-            "match": {
-              "location": "ProductSteps.i_click_add_to_cart()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1806579494,
-              "status": "passed"
-            },
-            "line": 30,
-            "name": "I navigate to homepage",
-            "match": {
-              "location": "HomepageSteps.i_navigate_to_homepage()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 929919021,
-              "status": "passed"
-            },
-            "line": 31,
-            "name": "I select article number \"3\" from the slider",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3",
-                  "offset": 25
-                }
-              ],
-              "location": "HomepageSteps.i_select_article_number_from_the_slider(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 368572325,
-              "status": "passed"
-            },
-            "line": 32,
-            "name": "I select \"2\" units of the lowest size",
-            "match": {
-              "arguments": [
-                {
-                  "val": "2",
-                  "offset": 10
-                }
-              ],
-              "location": "ProductSteps.i_select_units_of_the_lowest_size(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 531006407,
-              "status": "passed"
-            },
-            "line": 33,
-            "name": "I click add to cart",
-            "match": {
-              "location": "ProductSteps.i_click_add_to_cart()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1956119857,
-              "status": "passed"
-            },
-            "line": 34,
-            "name": "I navigate to the cart",
-            "match": {
-              "location": "HomepageSteps.i_navigate_to_the_cart()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 20915051,
-              "status": "passed"
-            },
-            "line": 35,
-            "name": "I should see the cart with \"2\" rows of articles",
-            "match": {
-              "arguments": [
-                {
-                  "val": "2",
-                  "offset": 28
-                }
-              ],
-              "location": "CartSteps.i_should_see_the_cart_with_rows_of_articles(String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 24,
-            "name": "@cart"
-          },
-          {
-            "line": 24,
-            "name": "@regression"
-          }
-        ]
       }
     ],
     "name": "ZooPlus Assessment Test Cases",
@@ -476,7 +152,7 @@
         "before": [
           {
             "result": {
-              "duration": 7961489903,
+              "duration": 8039961993,
               "status": "passed"
             },
             "match": {
@@ -491,7 +167,7 @@
         "after": [
           {
             "result": {
-              "duration": 245084468,
+              "duration": 186548987,
               "status": "passed"
             },
             "match": {
@@ -504,7 +180,7 @@
         "steps": [
           {
             "result": {
-              "duration": 44610400,
+              "duration": 14926201,
               "status": "passed"
             },
             "line": 8,
@@ -516,7 +192,7 @@
           },
           {
             "result": {
-              "duration": 1356202821,
+              "duration": 1427250345,
               "status": "passed"
             },
             "line": 9,
@@ -528,7 +204,7 @@
           },
           {
             "result": {
-              "duration": 130685337,
+              "duration": 182485411,
               "status": "passed"
             },
             "line": 10,
