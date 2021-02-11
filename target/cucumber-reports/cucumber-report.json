@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 9555832890,
+              "duration": 9139229244,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 169499923,
+              "duration": 189743090,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 144166614,
+              "duration": 127934660,
               "status": "passed"
             },
             "line": 8,
@@ -46,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 1939252097,
+              "duration": 1845155551,
               "status": "passed"
             },
             "line": 9,
@@ -64,7 +64,7 @@
           },
           {
             "result": {
-              "duration": 83660951,
+              "duration": 81245385,
               "status": "passed"
             },
             "line": 10,
@@ -82,7 +82,7 @@
           },
           {
             "result": {
-              "duration": 110502592,
+              "duration": 466342110,
               "status": "passed"
             },
             "line": 11,
@@ -94,28 +94,10 @@
           },
           {
             "result": {
-              "duration": 2004361715,
+              "duration": 1947983248,
               "status": "passed"
             },
             "line": 12,
-            "name": "I wait \u00272\u0027 seconds",
-            "match": {
-              "arguments": [
-                {
-                  "val": "2",
-                  "offset": 8
-                }
-              ],
-              "location": "HomepageSteps.i_wait_seconds(int)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1934226625,
-              "status": "passed"
-            },
-            "line": 13,
             "name": "I navigate to the cart",
             "match": {
               "location": "HomepageSteps.i_navigate_to_the_cart()"
@@ -124,10 +106,10 @@
           },
           {
             "result": {
-              "duration": 55532043,
+              "duration": 37137064,
               "status": "passed"
             },
-            "line": 14,
+            "line": 13,
             "name": "I should see the cart with \"1\" rows of articles",
             "match": {
               "arguments": [
@@ -160,7 +142,7 @@
         "before": [
           {
             "result": {
-              "duration": 7890578188,
+              "duration": 8603251150,
               "status": "passed"
             },
             "match": {
@@ -168,14 +150,14 @@
             }
           }
         ],
-        "line": 17,
+        "line": 16,
         "name": "Adding multiple units of the same article to the cart",
         "description": "",
         "id": "zooplus-assessment-test-cases;adding-multiple-units-of-the-same-article-to-the-cart",
         "after": [
           {
             "result": {
-              "duration": 201255988,
+              "duration": 193065313,
               "status": "passed"
             },
             "match": {
@@ -188,10 +170,10 @@
         "steps": [
           {
             "result": {
-              "duration": 8031516,
+              "duration": 29823381,
               "status": "passed"
             },
-            "line": 18,
+            "line": 17,
             "name": "I am in homepage",
             "match": {
               "location": "HomepageSteps.i_am_in_homepage()"
@@ -200,10 +182,10 @@
           },
           {
             "result": {
-              "duration": 2103645622,
+              "duration": 2101823391,
               "status": "passed"
             },
-            "line": 19,
+            "line": 18,
             "name": "I select article number \"1\" from the slider",
             "match": {
               "arguments": [
@@ -218,10 +200,10 @@
           },
           {
             "result": {
-              "duration": 71570708,
+              "duration": 111582247,
               "status": "passed"
             },
-            "line": 20,
+            "line": 19,
             "name": "I select \"2\" units of the lowest size",
             "match": {
               "arguments": [
@@ -236,10 +218,10 @@
           },
           {
             "result": {
-              "duration": 94431153,
+              "duration": 654771382,
               "status": "passed"
             },
-            "line": 21,
+            "line": 20,
             "name": "I click add to cart",
             "match": {
               "location": "ProductSteps.i_click_add_to_cart()"
@@ -248,28 +230,10 @@
           },
           {
             "result": {
-              "duration": 2005271993,
+              "duration": 1774622839,
               "status": "passed"
             },
-            "line": 22,
-            "name": "I wait \u00272\u0027 seconds",
-            "match": {
-              "arguments": [
-                {
-                  "val": "2",
-                  "offset": 8
-                }
-              ],
-              "location": "HomepageSteps.i_wait_seconds(int)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1580974713,
-              "status": "passed"
-            },
-            "line": 23,
+            "line": 21,
             "name": "I navigate to the cart",
             "match": {
               "location": "HomepageSteps.i_navigate_to_the_cart()"
@@ -278,10 +242,10 @@
           },
           {
             "result": {
-              "duration": 60274407,
+              "duration": 22378494,
               "status": "passed"
             },
-            "line": 24,
+            "line": 22,
             "name": "I should see the cart with \"1\" rows of articles",
             "match": {
               "arguments": [
@@ -297,11 +261,11 @@
         ],
         "tags": [
           {
-            "line": 16,
+            "line": 15,
             "name": "@cart"
           },
           {
-            "line": 16,
+            "line": 15,
             "name": "@regression"
           }
         ]
@@ -310,7 +274,7 @@
         "before": [
           {
             "result": {
-              "duration": 8066746904,
+              "duration": 7954486730,
               "status": "passed"
             },
             "match": {
@@ -318,14 +282,14 @@
             }
           }
         ],
-        "line": 27,
+        "line": 25,
         "name": "Adding multiple articles to the cart",
         "description": "",
         "id": "zooplus-assessment-test-cases;adding-multiple-articles-to-the-cart",
         "after": [
           {
             "result": {
-              "duration": 171790989,
+              "duration": 177892671,
               "status": "passed"
             },
             "match": {
@@ -338,10 +302,10 @@
         "steps": [
           {
             "result": {
-              "duration": 14890373,
+              "duration": 6455198,
               "status": "passed"
             },
-            "line": 28,
+            "line": 26,
             "name": "I am in homepage",
             "match": {
               "location": "HomepageSteps.i_am_in_homepage()"
@@ -350,10 +314,10 @@
           },
           {
             "result": {
-              "duration": 2009570515,
+              "duration": 1995939777,
               "status": "passed"
             },
-            "line": 29,
+            "line": 27,
             "name": "I select article number \"1\" from the slider",
             "match": {
               "arguments": [
@@ -368,10 +332,10 @@
           },
           {
             "result": {
-              "duration": 78680485,
+              "duration": 77566617,
               "status": "passed"
             },
-            "line": 30,
+            "line": 28,
             "name": "I select \"1\" units of the lowest size",
             "match": {
               "arguments": [
@@ -386,10 +350,10 @@
           },
           {
             "result": {
-              "duration": 113719992,
+              "duration": 490301643,
               "status": "passed"
             },
-            "line": 31,
+            "line": 29,
             "name": "I click add to cart",
             "match": {
               "location": "ProductSteps.i_click_add_to_cart()"
@@ -398,10 +362,10 @@
           },
           {
             "result": {
-              "duration": 1831526668,
+              "duration": 1806579494,
               "status": "passed"
             },
-            "line": 32,
+            "line": 30,
             "name": "I navigate to homepage",
             "match": {
               "location": "HomepageSteps.i_navigate_to_homepage()"
@@ -410,10 +374,10 @@
           },
           {
             "result": {
-              "duration": 1112107696,
+              "duration": 929919021,
               "status": "passed"
             },
-            "line": 33,
+            "line": 31,
             "name": "I select article number \"3\" from the slider",
             "match": {
               "arguments": [
@@ -428,10 +392,10 @@
           },
           {
             "result": {
-              "duration": 221753329,
+              "duration": 368572325,
               "status": "passed"
             },
-            "line": 34,
+            "line": 32,
             "name": "I select \"2\" units of the lowest size",
             "match": {
               "arguments": [
@@ -446,10 +410,10 @@
           },
           {
             "result": {
-              "duration": 127208002,
+              "duration": 531006407,
               "status": "passed"
             },
-            "line": 35,
+            "line": 33,
             "name": "I click add to cart",
             "match": {
               "location": "ProductSteps.i_click_add_to_cart()"
@@ -458,28 +422,10 @@
           },
           {
             "result": {
-              "duration": 2003185909,
+              "duration": 1956119857,
               "status": "passed"
             },
-            "line": 36,
-            "name": "I wait \u00272\u0027 seconds",
-            "match": {
-              "arguments": [
-                {
-                  "val": "2",
-                  "offset": 8
-                }
-              ],
-              "location": "HomepageSteps.i_wait_seconds(int)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2003319569,
-              "status": "passed"
-            },
-            "line": 37,
+            "line": 34,
             "name": "I navigate to the cart",
             "match": {
               "location": "HomepageSteps.i_navigate_to_the_cart()"
@@ -488,10 +434,10 @@
           },
           {
             "result": {
-              "duration": 43887747,
+              "duration": 20915051,
               "status": "passed"
             },
-            "line": 38,
+            "line": 35,
             "name": "I should see the cart with \"2\" rows of articles",
             "match": {
               "arguments": [
@@ -507,11 +453,11 @@
         ],
         "tags": [
           {
-            "line": 26,
+            "line": 24,
             "name": "@cart"
           },
           {
-            "line": 26,
+            "line": 24,
             "name": "@regression"
           }
         ]
@@ -530,7 +476,7 @@
         "before": [
           {
             "result": {
-              "duration": 8004246317,
+              "duration": 7961489903,
               "status": "passed"
             },
             "match": {
@@ -545,7 +491,7 @@
         "after": [
           {
             "result": {
-              "duration": 153831428,
+              "duration": 245084468,
               "status": "passed"
             },
             "match": {
@@ -558,7 +504,7 @@
         "steps": [
           {
             "result": {
-              "duration": 13245001,
+              "duration": 44610400,
               "status": "passed"
             },
             "line": 8,
@@ -570,7 +516,7 @@
           },
           {
             "result": {
-              "duration": 1309470223,
+              "duration": 1356202821,
               "status": "passed"
             },
             "line": 9,
@@ -582,7 +528,7 @@
           },
           {
             "result": {
-              "duration": 30303947,
+              "duration": 130685337,
               "status": "passed"
             },
             "line": 10,

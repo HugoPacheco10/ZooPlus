@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 9555832890,
+  "duration": 9139229244,
   "status": "passed"
 });
 formatter.scenario({
@@ -54,16 +54,11 @@ formatter.step({
 });
 formatter.step({
   "line": 12,
-  "name": "I wait \u00272\u0027 seconds",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 13,
   "name": "I navigate to the cart",
   "keyword": "And "
 });
 formatter.step({
-  "line": 14,
+  "line": 13,
   "name": "I should see the cart with \"1\" rows of articles",
   "keyword": "Then "
 });
@@ -71,7 +66,7 @@ formatter.match({
   "location": "HomepageSteps.i_am_in_homepage()"
 });
 formatter.result({
-  "duration": 144166614,
+  "duration": 127934660,
   "status": "passed"
 });
 formatter.match({
@@ -84,7 +79,7 @@ formatter.match({
   "location": "HomepageSteps.i_select_article_number_from_the_slider(String)"
 });
 formatter.result({
-  "duration": 1939252097,
+  "duration": 1845155551,
   "status": "passed"
 });
 formatter.match({
@@ -97,34 +92,21 @@ formatter.match({
   "location": "ProductSteps.i_select_units_of_the_lowest_size(String)"
 });
 formatter.result({
-  "duration": 83660951,
+  "duration": 81245385,
   "status": "passed"
 });
 formatter.match({
   "location": "ProductSteps.i_click_add_to_cart()"
 });
 formatter.result({
-  "duration": 110502592,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "2",
-      "offset": 8
-    }
-  ],
-  "location": "HomepageSteps.i_wait_seconds(int)"
-});
-formatter.result({
-  "duration": 2004361715,
+  "duration": 466342110,
   "status": "passed"
 });
 formatter.match({
   "location": "HomepageSteps.i_navigate_to_the_cart()"
 });
 formatter.result({
-  "duration": 1934226625,
+  "duration": 1947983248,
   "status": "passed"
 });
 formatter.match({
@@ -137,19 +119,19 @@ formatter.match({
   "location": "CartSteps.i_should_see_the_cart_with_rows_of_articles(String)"
 });
 formatter.result({
-  "duration": 55532043,
+  "duration": 37137064,
   "status": "passed"
 });
 formatter.after({
-  "duration": 169499923,
+  "duration": 189743090,
   "status": "passed"
 });
 formatter.before({
-  "duration": 7890578188,
+  "duration": 8603251150,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 17,
+  "line": 16,
   "name": "Adding multiple units of the same article to the cart",
   "description": "",
   "id": "zooplus-assessment-test-cases;adding-multiple-units-of-the-same-article-to-the-cart",
@@ -157,47 +139,42 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 16,
+      "line": 15,
       "name": "@cart"
     },
     {
-      "line": 16,
+      "line": 15,
       "name": "@regression"
     }
   ]
 });
 formatter.step({
-  "line": 18,
+  "line": 17,
   "name": "I am in homepage",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 19,
+  "line": 18,
   "name": "I select article number \"1\" from the slider",
   "keyword": "When "
 });
 formatter.step({
-  "line": 20,
+  "line": 19,
   "name": "I select \"2\" units of the lowest size",
   "keyword": "And "
 });
 formatter.step({
-  "line": 21,
+  "line": 20,
   "name": "I click add to cart",
   "keyword": "And "
 });
 formatter.step({
-  "line": 22,
-  "name": "I wait \u00272\u0027 seconds",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 23,
+  "line": 21,
   "name": "I navigate to the cart",
   "keyword": "And "
 });
 formatter.step({
-  "line": 24,
+  "line": 22,
   "name": "I should see the cart with \"1\" rows of articles",
   "keyword": "Then "
 });
@@ -205,7 +182,7 @@ formatter.match({
   "location": "HomepageSteps.i_am_in_homepage()"
 });
 formatter.result({
-  "duration": 8031516,
+  "duration": 29823381,
   "status": "passed"
 });
 formatter.match({
@@ -218,7 +195,7 @@ formatter.match({
   "location": "HomepageSteps.i_select_article_number_from_the_slider(String)"
 });
 formatter.result({
-  "duration": 2103645622,
+  "duration": 2101823391,
   "status": "passed"
 });
 formatter.match({
@@ -231,34 +208,21 @@ formatter.match({
   "location": "ProductSteps.i_select_units_of_the_lowest_size(String)"
 });
 formatter.result({
-  "duration": 71570708,
+  "duration": 111582247,
   "status": "passed"
 });
 formatter.match({
   "location": "ProductSteps.i_click_add_to_cart()"
 });
 formatter.result({
-  "duration": 94431153,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "2",
-      "offset": 8
-    }
-  ],
-  "location": "HomepageSteps.i_wait_seconds(int)"
-});
-formatter.result({
-  "duration": 2005271993,
+  "duration": 654771382,
   "status": "passed"
 });
 formatter.match({
   "location": "HomepageSteps.i_navigate_to_the_cart()"
 });
 formatter.result({
-  "duration": 1580974713,
+  "duration": 1774622839,
   "status": "passed"
 });
 formatter.match({
@@ -271,19 +235,19 @@ formatter.match({
   "location": "CartSteps.i_should_see_the_cart_with_rows_of_articles(String)"
 });
 formatter.result({
-  "duration": 60274407,
+  "duration": 22378494,
   "status": "passed"
 });
 formatter.after({
-  "duration": 201255988,
+  "duration": 193065313,
   "status": "passed"
 });
 formatter.before({
-  "duration": 8066746904,
+  "duration": 7954486730,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 27,
+  "line": 25,
   "name": "Adding multiple articles to the cart",
   "description": "",
   "id": "zooplus-assessment-test-cases;adding-multiple-articles-to-the-cart",
@@ -291,67 +255,62 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 26,
+      "line": 24,
       "name": "@cart"
     },
     {
-      "line": 26,
+      "line": 24,
       "name": "@regression"
     }
   ]
 });
 formatter.step({
-  "line": 28,
+  "line": 26,
   "name": "I am in homepage",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 29,
+  "line": 27,
   "name": "I select article number \"1\" from the slider",
   "keyword": "When "
 });
 formatter.step({
-  "line": 30,
+  "line": 28,
   "name": "I select \"1\" units of the lowest size",
   "keyword": "And "
 });
 formatter.step({
-  "line": 31,
+  "line": 29,
   "name": "I click add to cart",
   "keyword": "And "
 });
 formatter.step({
-  "line": 32,
+  "line": 30,
   "name": "I navigate to homepage",
   "keyword": "And "
 });
 formatter.step({
-  "line": 33,
+  "line": 31,
   "name": "I select article number \"3\" from the slider",
   "keyword": "And "
 });
 formatter.step({
-  "line": 34,
+  "line": 32,
   "name": "I select \"2\" units of the lowest size",
   "keyword": "And "
 });
 formatter.step({
-  "line": 35,
+  "line": 33,
   "name": "I click add to cart",
   "keyword": "And "
 });
 formatter.step({
-  "line": 36,
-  "name": "I wait \u00272\u0027 seconds",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 37,
+  "line": 34,
   "name": "I navigate to the cart",
   "keyword": "And "
 });
 formatter.step({
-  "line": 38,
+  "line": 35,
   "name": "I should see the cart with \"2\" rows of articles",
   "keyword": "Then "
 });
@@ -359,7 +318,7 @@ formatter.match({
   "location": "HomepageSteps.i_am_in_homepage()"
 });
 formatter.result({
-  "duration": 14890373,
+  "duration": 6455198,
   "status": "passed"
 });
 formatter.match({
@@ -372,7 +331,7 @@ formatter.match({
   "location": "HomepageSteps.i_select_article_number_from_the_slider(String)"
 });
 formatter.result({
-  "duration": 2009570515,
+  "duration": 1995939777,
   "status": "passed"
 });
 formatter.match({
@@ -385,21 +344,21 @@ formatter.match({
   "location": "ProductSteps.i_select_units_of_the_lowest_size(String)"
 });
 formatter.result({
-  "duration": 78680485,
+  "duration": 77566617,
   "status": "passed"
 });
 formatter.match({
   "location": "ProductSteps.i_click_add_to_cart()"
 });
 formatter.result({
-  "duration": 113719992,
+  "duration": 490301643,
   "status": "passed"
 });
 formatter.match({
   "location": "HomepageSteps.i_navigate_to_homepage()"
 });
 formatter.result({
-  "duration": 1831526668,
+  "duration": 1806579494,
   "status": "passed"
 });
 formatter.match({
@@ -412,7 +371,7 @@ formatter.match({
   "location": "HomepageSteps.i_select_article_number_from_the_slider(String)"
 });
 formatter.result({
-  "duration": 1112107696,
+  "duration": 929919021,
   "status": "passed"
 });
 formatter.match({
@@ -425,34 +384,21 @@ formatter.match({
   "location": "ProductSteps.i_select_units_of_the_lowest_size(String)"
 });
 formatter.result({
-  "duration": 221753329,
+  "duration": 368572325,
   "status": "passed"
 });
 formatter.match({
   "location": "ProductSteps.i_click_add_to_cart()"
 });
 formatter.result({
-  "duration": 127208002,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "2",
-      "offset": 8
-    }
-  ],
-  "location": "HomepageSteps.i_wait_seconds(int)"
-});
-formatter.result({
-  "duration": 2003185909,
+  "duration": 531006407,
   "status": "passed"
 });
 formatter.match({
   "location": "HomepageSteps.i_navigate_to_the_cart()"
 });
 formatter.result({
-  "duration": 2003319569,
+  "duration": 1956119857,
   "status": "passed"
 });
 formatter.match({
@@ -465,11 +411,11 @@ formatter.match({
   "location": "CartSteps.i_should_see_the_cart_with_rows_of_articles(String)"
 });
 formatter.result({
-  "duration": 43887747,
+  "duration": 20915051,
   "status": "passed"
 });
 formatter.after({
-  "duration": 171790989,
+  "duration": 177892671,
   "status": "passed"
 });
 formatter.uri("ZooPointsProgramScenarios.feature");
@@ -481,7 +427,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 8004246317,
+  "duration": 7961489903,
   "status": "passed"
 });
 formatter.scenario({
@@ -525,25 +471,25 @@ formatter.match({
   "location": "HomepageSteps.i_am_in_homepage()"
 });
 formatter.result({
-  "duration": 13245001,
+  "duration": 44610400,
   "status": "passed"
 });
 formatter.match({
   "location": "HomepageSteps.i_navigate_to_ZooPoints_Program_Page()"
 });
 formatter.result({
-  "duration": 1309470223,
+  "duration": 1356202821,
   "status": "passed"
 });
 formatter.match({
   "location": "ZooPointsProgramSteps.i_should_see_a_quick_summary_of_the_rules()"
 });
 formatter.result({
-  "duration": 30303947,
+  "duration": 130685337,
   "status": "passed"
 });
 formatter.after({
-  "duration": 153831428,
+  "duration": 245084468,
   "status": "passed"
 });
 });

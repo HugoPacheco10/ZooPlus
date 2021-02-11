@@ -40,8 +40,4 @@ public class HomepageSteps {
         PageObjectManager.getInstance().getHomepage().clickLogo();
     }
 
-    @When("^I wait '(\\d+)' seconds$")
-    public void i_wait_seconds(int arg1) throws Throwable {
-        Thread.sleep(arg1*1000);
-    }
 }

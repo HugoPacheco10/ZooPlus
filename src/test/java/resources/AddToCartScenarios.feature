@@ -9,7 +9,6 @@ Feature: ZooPlus Assessment Test Cases
     When I select article number "1" from the slider
     And I select "1" units of the lowest size
     And I click add to cart
-    And I wait '2' seconds
     And I navigate to the cart
     Then I should see the cart with "1" rows of articles
 
@@ -19,7 +18,6 @@ Feature: ZooPlus Assessment Test Cases
     When I select article number "1" from the slider
     And I select "2" units of the lowest size
     And I click add to cart
-    And I wait '2' seconds
     And I navigate to the cart
     Then I should see the cart with "1" rows of articles
 
@@ -33,6 +31,5 @@ Feature: ZooPlus Assessment Test Cases
     And I select article number "3" from the slider
     And I select "2" units of the lowest size
     And I click add to cart
-    And I wait '2' seconds
     And I navigate to the cart
     Then I should see the cart with "2" rows of articles
