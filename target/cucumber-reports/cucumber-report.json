@@ -1,0 +1,618 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9555832890,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Adding one article to the cart",
+        "description": "",
+        "id": "zooplus-assessment-test-cases;adding-one-article-to-the-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 169499923,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 144166614,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am in homepage",
+            "match": {
+              "location": "HomepageSteps.i_am_in_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1939252097,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select article number \"1\" from the slider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 25
+                }
+              ],
+              "location": "HomepageSteps.i_select_article_number_from_the_slider(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 83660951,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I select \"1\" units of the lowest size",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 10
+                }
+              ],
+              "location": "ProductSteps.i_select_units_of_the_lowest_size(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 110502592,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click add to cart",
+            "match": {
+              "location": "ProductSteps.i_click_add_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2004361715,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I wait \u00272\u0027 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 8
+                }
+              ],
+              "location": "HomepageSteps.i_wait_seconds(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1934226625,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I navigate to the cart",
+            "match": {
+              "location": "HomepageSteps.i_navigate_to_the_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55532043,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should see the cart with \"1\" rows of articles",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 28
+                }
+              ],
+              "location": "CartSteps.i_should_see_the_cart_with_rows_of_articles(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@cart"
+          },
+          {
+            "line": 6,
+            "name": "@regression"
+          },
+          {
+            "line": 6,
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7890578188,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Adding multiple units of the same article to the cart",
+        "description": "",
+        "id": "zooplus-assessment-test-cases;adding-multiple-units-of-the-same-article-to-the-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 201255988,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8031516,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I am in homepage",
+            "match": {
+              "location": "HomepageSteps.i_am_in_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2103645622,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I select article number \"1\" from the slider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 25
+                }
+              ],
+              "location": "HomepageSteps.i_select_article_number_from_the_slider(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 71570708,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I select \"2\" units of the lowest size",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 10
+                }
+              ],
+              "location": "ProductSteps.i_select_units_of_the_lowest_size(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 94431153,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click add to cart",
+            "match": {
+              "location": "ProductSteps.i_click_add_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2005271993,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I wait \u00272\u0027 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 8
+                }
+              ],
+              "location": "HomepageSteps.i_wait_seconds(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1580974713,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I navigate to the cart",
+            "match": {
+              "location": "HomepageSteps.i_navigate_to_the_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60274407,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I should see the cart with \"1\" rows of articles",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 28
+                }
+              ],
+              "location": "CartSteps.i_should_see_the_cart_with_rows_of_articles(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 16,
+            "name": "@cart"
+          },
+          {
+            "line": 16,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8066746904,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Adding multiple articles to the cart",
+        "description": "",
+        "id": "zooplus-assessment-test-cases;adding-multiple-articles-to-the-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 171790989,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14890373,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I am in homepage",
+            "match": {
+              "location": "HomepageSteps.i_am_in_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2009570515,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I select article number \"1\" from the slider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 25
+                }
+              ],
+              "location": "HomepageSteps.i_select_article_number_from_the_slider(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 78680485,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I select \"1\" units of the lowest size",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 10
+                }
+              ],
+              "location": "ProductSteps.i_select_units_of_the_lowest_size(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 113719992,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I click add to cart",
+            "match": {
+              "location": "ProductSteps.i_click_add_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1831526668,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I navigate to homepage",
+            "match": {
+              "location": "HomepageSteps.i_navigate_to_homepage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1112107696,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I select article number \"3\" from the slider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 25
+                }
+              ],
+              "location": "HomepageSteps.i_select_article_number_from_the_slider(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 221753329,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I select \"2\" units of the lowest size",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 10
+                }
+              ],
+              "location": "ProductSteps.i_select_units_of_the_lowest_size(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 127208002,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I click add to cart",
+            "match": {
+              "location": "ProductSteps.i_click_add_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2003185909,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I wait \u00272\u0027 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 8
+                }
+              ],
+              "location": "HomepageSteps.i_wait_seconds(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2003319569,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I navigate to the cart",
+            "match": {
+              "location": "HomepageSteps.i_navigate_to_the_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43887747,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I should see the cart with \"2\" rows of articles",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 28
+                }
+              ],
+              "location": "CartSteps.i_should_see_the_cart_with_rows_of_articles(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 26,
+            "name": "@cart"
+          },
+          {
+            "line": 26,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "ZooPlus Assessment Test Cases",
+    "description": "As a Customer\nI want to add an article or articles to the cart\nIn order to be able to perform a purchase",
+    "id": "zooplus-assessment-test-cases",
+    "keyword": "Feature",
+    "uri": "AddToCartScenarios.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8004246317,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Adding one article to the cart",
+        "description": "",
+        "id": "zooplus-assessment-test-cases;adding-one-article-to-the-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 153831428,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13245001,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am in homepage",
+            "match": {
+              "location": "HomepageSteps.i_am_in_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1309470223,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I navigate to ZooPoints Program Page",
+            "match": {
+              "location": "HomepageSteps.i_navigate_to_ZooPoints_Program_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30303947,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should see a quick summary of the rules",
+            "match": {
+              "location": "ZooPointsProgramSteps.i_should_see_a_quick_summary_of_the_rules()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@zoopoints"
+          },
+          {
+            "line": 6,
+            "name": "@regression"
+          },
+          {
+            "line": 6,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "ZooPlus Assessment Test Cases",
+    "description": "As a Customer\nI want to see a tutorial on ZooPoints\nIn order to be able to use the program",
+    "id": "zooplus-assessment-test-cases",
+    "keyword": "Feature",
+    "uri": "ZooPointsProgramScenarios.feature"
+  }
+]

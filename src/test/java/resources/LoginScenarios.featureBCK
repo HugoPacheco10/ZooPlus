@@ -1,0 +1,48 @@
+Feature: ZooPlus Assessment Test Cases
+  As a Customer
+  I want to be able to Login
+  In order to have my preferences saved
+
+  @login @regression
+  Scenario: Attempt to Login with empty fields
+    Given I am in homepage
+    When I click on mi zooplus
+    And I click in Entrar
+    Then I should see error message on "both" field
+
+  @login @regression
+  Scenario: Attempt to Login with non existing user
+    Given I am in homepage
+    When I click on mi zooplus
+    And I type a "incorrect" username
+    And I type a "incorrect" password
+    And I click in Entrar
+    Then I should see error message on "notification" field
+
+  @login @regression
+  Scenario: Attempt to Login with bad format email
+    Given I am in homepage
+    When I click on mi zooplus
+    And I type a "badformat" username
+    And I type a "correct" password
+    And I click in Entrar
+    Then I should see error message on "username" field
+
+  @login @regression
+  Scenario: Attempt to Login with existing user but wrong password
+    Given I am in homepage
+    When I click on mi zooplus
+    And I type a "correct" username
+    And I type a "incorrect" password
+    And I click in Entrar
+    Then I should see error message on "notification" field
+
+  @login @regression @smoke
+  Scenario: Attempt to Login with success
+    Given I am in homepage
+    When I click on mi zooplus
+    And I type a "correct" username
+    And I type a "incorrect" password
+    And I click in Entrar
+    Then I should be logged in
+

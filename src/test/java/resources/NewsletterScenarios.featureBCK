@@ -1,0 +1,46 @@
+Feature: ZooPlus Assessment Test Cases
+  As a Customer
+  I want to be able to subscribe to the Newsletter
+  In order to be up-to-date with the products and their promotions
+
+  @newsletter @regression
+  Scenario: Attempt to subscribe to Newsletter with no option chosen
+    Given I am in homepage
+    When I navigate to newsletter page
+    And I click in Subscribe
+    Then I should see error message on "notification" field
+
+  @newsletter @regression
+  Scenario: Attempt to subscribe to Newsletter with option chosen but no email
+    Given I am in homepage
+    When I navigate to newsletter page
+    And I check Dogs checkbox
+    And I click in Subscribe
+    Then I should see error message on "notification" field
+
+  @newsletter @regression
+  Scenario: Attempt to subscribe to Newsletter with option chosen but email in bad format
+    Given I am in homepage
+    When I navigate to newsletter page
+    And I check Dogs checkbox
+    And I type a "badformat" username
+    And I click in Subscribe
+    Then I should see error message on "notification" field
+
+  @newsletter @regression @smoke
+  Scenario: Attempt to subscribe to Newsletter with success
+    Given I am in homepage
+    When I navigate to newsletter page
+    And I check Dogs checkbox
+    And I type a "correct" mail in the email field
+    And I click in Subscribe
+    Then I should be correctly subscribed
+
+  @newsletter @regression
+  Scenario: Attempt to subscribe to Newsletter with an already registered email
+    Given I am in homepage
+    When I navigate to newsletter page
+    And I check Dogs checkbox
+    And I type a "alreadysubscribed" mail in the email field
+    And I click in Subscribe
+    Then I should see error message on "notification" field
