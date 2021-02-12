@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="11" failures="0" name="runner.TestRunner" time="0.421" errors="0" skipped="0">
+<testsuite tests="29" failures="0" name="runner.TestRunner" time="0.761" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
-    <property name="cucumber.options" value="--tags &apos;@smoke&apos;"/>
     <property name="java.vm.version" value="15.0.1+9"/>
     <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/15.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
     <property name="maven.multiModuleProjectDirectory" value="/Users/pax/IdeaProjects/ZooPlusAssessment"/>
@@ -42,7 +41,7 @@
     <property name="java.class.path" value="/usr/local/Cellar/maven/3.6.3_1/libexec/boot/plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="15"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dcucumber.options=--tags &apos;@smoke&apos;"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
     <property name="java.home" value="/usr/local/Cellar/openjdk/15.0.1/libexec/openjdk.jdk/Contents/Home"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -61,12 +60,30 @@
   <testcase classname="Scenario: Adding one article to the cart" name="Given I am in homepage" time="0.002"/>
   <testcase classname="Scenario: Adding one article to the cart" name="When I select article number &quot;1&quot; from the slider" time="0"/>
   <testcase classname="Scenario: Adding one article to the cart" name="And I select &quot;1&quot; units of the lowest size" time="0"/>
-  <testcase classname="Scenario: Adding one article to the cart" name="And I click add to cart" time="0"/>
+  <testcase classname="Scenario: Adding one article to the cart" name="And I click add to cart" time="0.001"/>
   <testcase classname="Scenario: Adding one article to the cart" name="And I navigate to the cart" time="0"/>
   <testcase classname="Scenario: Adding one article to the cart" name="Then I should see the cart with &quot;1&quot; rows of articles" time="0"/>
-  <testcase classname="Scenario: Adding one article to the cart" name="Scenario: Adding one article to the cart" time="0.228"/>
+  <testcase classname="Scenario: Adding one article to the cart" name="Scenario: Adding one article to the cart" time="0.191"/>
+  <testcase classname="Scenario: Adding multiple units of the same article to the cart" name="Given I am in homepage" time="0"/>
+  <testcase classname="Scenario: Adding multiple units of the same article to the cart" name="When I select article number &quot;1&quot; from the slider" time="0"/>
+  <testcase classname="Scenario: Adding multiple units of the same article to the cart" name="And I select &quot;2&quot; units of the lowest size" time="0"/>
+  <testcase classname="Scenario: Adding multiple units of the same article to the cart" name="And I click add to cart" time="0"/>
+  <testcase classname="Scenario: Adding multiple units of the same article to the cart" name="And I navigate to the cart" time="0"/>
+  <testcase classname="Scenario: Adding multiple units of the same article to the cart" name="Then I should see the cart with &quot;1&quot; rows of articles" time="0"/>
+  <testcase classname="Scenario: Adding multiple units of the same article to the cart" name="Scenario: Adding multiple units of the same article to the cart" time="0.172"/>
+  <testcase classname="Scenario: Adding multiple articles to the cart" name="Given I am in homepage" time="0"/>
+  <testcase classname="Scenario: Adding multiple articles to the cart" name="When I select article number &quot;1&quot; from the slider" time="0"/>
+  <testcase classname="Scenario: Adding multiple articles to the cart" name="And I select &quot;1&quot; units of the lowest size" time="0"/>
+  <testcase classname="Scenario: Adding multiple articles to the cart" name="And I click add to cart" time="0"/>
+  <testcase classname="Scenario: Adding multiple articles to the cart" name="And I navigate to homepage" time="0"/>
+  <testcase classname="Scenario: Adding multiple articles to the cart" name="And I select article number &quot;3&quot; from the slider" time="0"/>
+  <testcase classname="Scenario: Adding multiple articles to the cart" name="And I select &quot;2&quot; units of the lowest size" time="0"/>
+  <testcase classname="Scenario: Adding multiple articles to the cart" name="And I click add to cart" time="0"/>
+  <testcase classname="Scenario: Adding multiple articles to the cart" name="And I navigate to the cart" time="0"/>
+  <testcase classname="Scenario: Adding multiple articles to the cart" name="Then I should see the cart with &quot;2&quot; rows of articles" time="0"/>
+  <testcase classname="Scenario: Adding multiple articles to the cart" name="Scenario: Adding multiple articles to the cart" time="0.181"/>
   <testcase classname="Scenario: Adding one article to the cart" name="Given I am in homepage" time="0"/>
   <testcase classname="Scenario: Adding one article to the cart" name="When I navigate to ZooPoints Program Page" time="0"/>
   <testcase classname="Scenario: Adding one article to the cart" name="Then I should see a quick summary of the rules" time="0"/>
-  <testcase classname="Scenario: Adding one article to the cart" name="Scenario: Adding one article to the cart" time="0.191"/>
+  <testcase classname="Scenario: Adding one article to the cart" name="Scenario: Adding one article to the cart" time="0.214"/>
 </testsuite>

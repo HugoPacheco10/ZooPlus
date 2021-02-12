@@ -1,0 +1,6 @@
+PageObjects/ProductPage.class
+PageObjects/ZooPointsProgramPage.class
+PageObjects/PageObjectManager.class
+PageObjects/CartPage.class
+PageObjects/Homepage.class
+PageObjects/BasePage.class
